@@ -58,5 +58,6 @@
 
 
  {!! Form::close() !!}
+ <p>{!! link_to("/bbc", '一覧に戻る') !!}</p>
   </div>
  @stop

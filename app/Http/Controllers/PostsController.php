@@ -22,8 +22,10 @@
       */
      public function index()
      {
-        $posts = $this->posts->all();
-         return view('bbc.index')->with('posts', $posts);
+        // $posts = $this->posts->all();
+        //  return view('bbc.index')->with('posts', $posts);
+        $posts = $this->posts->paginate(10);
+          return view('bbc.index')->with('posts', $posts);
      }
 
      /**
