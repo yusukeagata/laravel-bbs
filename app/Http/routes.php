@@ -11,9 +11,12 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
+Route::get('/', 'PostsController@index');
+
+
 Route::resource('bbc', 'PostsController');
 Route::get('bbc/category/{id}', 'PostsController@showCategory');
 Route::resource('comment', 'CommentsController',['only' => ['store']]);

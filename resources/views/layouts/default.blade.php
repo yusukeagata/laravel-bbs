@@ -11,9 +11,9 @@
  <title>Laravel5の掲示板</title>
  <nav class="navbar navbar-default">
     <div class="container">
-        <ul class="nav navbar-nav">
-            <h2>Laravel5の掲示板</h2>
-        </ul>
+        <div class="navbar-header">
+            <a class="navbar-brand">Laravel5の掲示板</a>
+        </div>
         <!-- 3.リストの配置 -->
         <ul class="nav navbar-nav">
             <li>{!! link_to("/bbc", 'トップページ') !!}</li>

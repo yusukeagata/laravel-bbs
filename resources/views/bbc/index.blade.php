@@ -14,7 +14,7 @@
      <p class="bg-danger">{{ $message }}</p>
      @endforeach
      @foreach($posts as $post)
-
+     
      <h2>タイトル：{{ $post->title }}
          <small>投稿日：{!! date('Y/m/d', strtotime($post->created_at)) !!}</small>
      </h2>
@@ -24,5 +24,6 @@
      <p>コメント数：{{ $post->comment_count }}</p>
      <hr />
      @endforeach
+    
  </div>
  @stop

@@ -19,7 +19,7 @@
 
  </div>
 
- @stop
+
  <div class="col-xs-8 col-xs-offset-2">
  <h3>コメントを投稿する</h3>
  {{-- 投稿完了時にフラッシュメッセージを表示 --}}
@@ -59,3 +59,4 @@
 
  {!! Form::close() !!}
   </div>
+ @stop
