@@ -2,7 +2,7 @@
  use App\Post;
  use App\Http\Requests;
  use App\Http\Controllers\Controller;
- use App\Http\Requests\Comment\StoreRequest;
+ use App\Http\Requests\Post\StoreRequest;
 
  use Illuminate\Http\Request;
 
